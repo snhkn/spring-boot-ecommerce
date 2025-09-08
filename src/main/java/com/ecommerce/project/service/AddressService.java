@@ -9,4 +9,6 @@ public interface AddressService {
     AddressDTO createAddress(AddressDTO addressDTO, User user);
 
     List<AddressDTO> getAllAddresses();
+
+    AddressDTO getAddressesById(Long addressId);
 }
