@@ -13,7 +13,7 @@ import java.util.List;
 public class OrderDTO {
     private Long orderId;
     private String email;
-    private List<OrderDTO> orderItems;
+    private List<OrderItemDTO> orderItems;
     private LocalDate orderDate;
     private PaymentDTO payment;
     private Double totalAmount;
